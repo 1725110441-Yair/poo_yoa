@@ -20,4 +20,20 @@ class LibroBiblioteca:
         print(f"Idioma: {self.idioma}")
         print(f"Cantidad disponibles: {self.cantidad_disponibles}")
         print(f"Fecha de adquisicion: {self.fecha_adquisicion}")
-libro1 = LibroBiblioteca("12982","Cien años de soledad","Gabriel Garcia Marquez","Sudamericana","1967","Realismo Magico","Primera","Español","3","19/05/2026")
+
+    def prestarLibro(self):
+        print(f"Se presto el libro {self.nombre}")
+    def regresarLibro(self):
+        print(f"Se ha regresado el libro {self.nombre}")
+    def donarLibro(self):
+        print(f"Se dono el libro {self.nombre}")
+    def organizar(self):
+        print(f"libro {self.nombre} organizado")
+    def comprobarDisponibilidad(self):
+        print(f"Del libro {self.nombre} hay {self.cantidad_disponibles} disponibles")
+libro1 = LibroBiblioteca("12982","Cien años de soledad","Gabriel Garcia Marquez","Sudamericana","1967","Realismo Magico","Primera","Español",3,"19/05/2026")
+libro1.prestarLibro()
+libro1.regresarLibro()
+libro1.donarLibro()
+libro1.organizar()
+libro1.comprobarDisponibilidad()
