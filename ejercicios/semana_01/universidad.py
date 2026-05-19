@@ -10,6 +10,7 @@ class Universidad:
         self.talleres = talleres
         self.cantidad_salones = cantidad_salones
         self.rector = rector
+        
         print(f"Logo de la Universidad: {self.logo}")
         print(f"Oferta educativa: {self.oferta_educativa}")
         print(f"Localidad: {self.localidad}")
@@ -20,4 +21,5 @@ class Universidad:
         print(f"Talleres: {self.talleres}")
         print(f"Cantidad de salones: {self.cantidad_salones}")
         print(f"Rector: {self.rector}")
+
 unideh = Universidad("logo.jpg","Ingenieria en Software, Turismo, etc.","San Miguel","CADU","Virtual","Biblioteca Digital","Santa Catarina",None,None,"Octavio Castillo")
