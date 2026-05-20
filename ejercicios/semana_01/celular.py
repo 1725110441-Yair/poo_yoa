@@ -21,5 +21,25 @@ class Celular:
         print(f"Ancho: {self.ancho}")
         print(f"Grosor: {self.grosor}")
         print(f"Peso: {self.peso}")
+
+    def encender(self):
+        print("Se encendio el celular")
+
+    def apagar(self):
+        print("Se apago el celular")
+
+    def actualizar(self):
+        print("Se actualizo el celular")
+
+    def reiniciar(self):
+        print("Se reinicio el celuar")
+
+    def sacarFoto(self):
+        print("Se ha sacado una foto")
         
-s24ultra = Celular("S24-Ultra","One UI 8.0","Snapdragon 8 Gen 3","12 GB","256 GB","5000 mAh","162.3 mm","74 mm","8.6 mm","232 g")
+celular1 = Celular("S24-Ultra","One UI 8.0","Snapdragon 8 Gen 3","12 GB","256 GB","5000 mAh","162.3 mm","74 mm","8.6 mm","232 g")
+celular1.encender()
+celular1.apagar()
+celular1.actualizar()
+celular1.reiniciar()
+celular1.sacarFoto()
