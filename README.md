@@ -39,3 +39,29 @@ Sincroniza los cambios realizados en el repositorio.
 git push -u origin main
 ````
 
+## 5. Agregar Documentación a los métodos
+
+Agregar un **Docstring** a los métodos generados.
+
+````python
+"""
+--------------------------
+
+# Aqui va la descripcion de sobre lo que hace el metodo.
+
+--------------------------
+
+# (Aqui estan los argumentos con descripción.)
+Args: 
+variable_uno : int - Primer numero entero
+variable_dos : int - Segundo numero entero
+
+--------------------------
+
+# (Aqui es lo que regresa el codigo con descripción.)
+Return: 
+suma : int - Suma de los numeros enteros
+
+--------------------------
+"""
+````

@@ -33,7 +33,7 @@ class PersonajeJuego:
         print(f"{self.nombre} recupero salud")
 
     def saltar(self):
-        print(f"{self.nombre} salto")
+        print(f"{self.nombre} saltó")
 
     def morir(self):
         print(f"{self.nombre} ha muerto")
