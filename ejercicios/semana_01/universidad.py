@@ -22,19 +22,24 @@ class Universidad:
         print(f"Cantidad de salones: {self.cantidad_salones}")
         print(f"Rector: {self.rector}")
 
-        def contratar(self):
-            print("La universidad contrato nuevo personal")
+    def contratar(self):
+         print("La universidad contrato nuevo personal")
 
-        def despedir(self):
-            print("La universidad despidio trabajadores")
+    def despedir(self):
+        print("La universidad despidio trabajadores")
 
-        def incribir(self):
-            print("La universidad abrio inscripciones")
+    def incribir(self):
+        print("La universidad abrio inscripciones")
 
-        def reinscribir(self):
-            print("La universidad abrio reinscripciones")
+    def reinscribir(self):
+        print("La universidad abrio reinscripciones")
 
-        def abrir(self):
-            print("La universidad abrio sus puertas")
+    def abrir(self):
+        print("La universidad abrio sus puertas")
 
 unideh = Universidad("logo.jpg","Ingenieria en Software, Turismo, etc.","San Miguel","CADU","Virtual","Biblioteca Digital","Santa Catarina",None,None,"Octavio Castillo")
+unideh.contratar()
+unideh.despedir()
+unideh.incribir()
+unideh.reinscribir()
+unideh.abrir()
